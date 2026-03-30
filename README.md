@@ -339,6 +339,7 @@ See the [Demo Guide][interactive-demos] for details.
 | [Memory API][memory-api-doc] | Complete API reference |
 | [Demo Guide][demo-guide] | Interactive examples |
 | [Evaluation Guide][evaluation-guide] | Benchmark testing |
+| [Security Audit][security-audit] | Security review and best practices |
 
 <br>
 <div align="right">
@@ -622,6 +623,7 @@ Read our [Contribution Guidelines][contributing-doc] for code standards and Git 
 [contributing-doc]: CONTRIBUTING.md
 [citation-doc]: docs/CITATION.md
 [acknowledgments-doc]: docs/ACKNOWLEDGMENTS.md
+[security-audit]: SECURITY_AUDIT.md
 [hugging-face]: https://huggingface.co/EverMind-AI
 [x]: https://x.com/EverMindAI
 [linkedin]: https://www.linkedin.com/company/ai-evermind
