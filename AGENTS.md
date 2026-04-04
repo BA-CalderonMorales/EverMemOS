@@ -88,21 +88,19 @@ curl -X DELETE http://localhost:1995/api/v1/memories/clear
 
 ## Infrastructure Dependencies
 
-⚠️ **Security Issue Identified**: Infrastructure components use outdated versions.
+**Status**: Infrastructure components were updated in `docker-compose.yaml`.
 
-| Component | Current | Latest | Age |
-|-----------|---------|--------|-----|
-| Elasticsearch | 8.11.0 | 8.17.0 | 2 years |
-| Milvus | v2.5.2 | v2.5.10 | 1 year |
-| MinIO | 2023-03-20 | 2025-02 | 3 years |
-| etcd | v3.5.5 | v3.5.19 | 4 years |
+| Component | Version | Status |
+|-----------|---------|--------|
+| Elasticsearch | 8.17.0 | Current |
+| Milvus | v2.5.10 | Current |
+| MinIO | RELEASE.2025-07-23T15-54-02Z | Current |
+| etcd | v3.5.19 | Current |
+| MongoDB | 7.0 | Current |
 
 **Action Required**:
-1. Test `docker-compose.updated.yaml` for compatibility
-2. Run `trivy config docker-compose.yaml` to scan for CVEs
-3. Update to newer versions incrementally
-
-See `docker-compose.updated.yaml` for proposed updates.
+1. Run `trivy config docker-compose.yaml` periodically to scan for new CVEs
+2. Review `docker-compose.yaml` comments for version migration notes
 
 ## Integration with Other Agents
 
