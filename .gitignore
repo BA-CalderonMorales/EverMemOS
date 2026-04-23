@@ -219,4 +219,5 @@ evaluation/locomo_evaluation/results_ref/demo/results/
 
 # i18n translation progress
 .translation_progress.json
-.review_progress.jsonscripts/prune-branches.sh
+.review_progress.json
+scripts/prune-branches.sh
